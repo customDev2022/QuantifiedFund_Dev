@@ -22,23 +22,23 @@
 				<div class="row justify-content-between align-content-center">
 					<div class="col-6 d-block d-md-none">
 						<div class="logo">
-							<a href="index.html"><img src="images/logo.png" alt="" srcset="images/logo@2x.png 2x, images/logo@3x.png 3x"></a>
+							<a href="{{route('home')}}"><img src="images/logo.png" alt="" srcset="images/logo@2x.png 2x, images/logo@3x.png 3x"></a>
 						</div>
 					</div>
 					<div class="col-md-12">
 						<div class="cmenu text-left text-md-right">
 							<div class="logo float-left">
 								<span class="lightlogo">
-									<a href="index.html"><img src="images/logo.png" alt="" srcset="images/logo@2x.png 2x, images/logo@3x.png 3x"></a>
+									<a href="{{route('home')}}"><img src="images/logo.png" alt="" srcset="images/logo@2x.png 2x, images/logo@3x.png 3x"></a>
 								</span>
 								<span class="darklogo">
-									<a href="index.html"><img src="images/logo-black.png" alt="" srcset="images/logo-black@2x.png 2x, images/logo-black@3x.png 3x"></a>
+									<a href="{{route('home')}}"><img src="images/logo-black.png" alt="" srcset="images/logo-black@2x.png 2x, images/logo-black@3x.png 3x"></a>
 								</span>
 							</div>
 							<div class="ml-auto">
 								<ul>
 									<!-- <li><a href="javascript:void(0)"><img src="images/logo.png" alt="" srcset="images/logo@2x.png 2x, images/logo@3x.png 3x"></a></li> -->
-									<li><a href="fund-family.html">Fund Family</a></li>
+									<li><a href="{{route('fund-family')}}">Fund Family</a></li>
 									<li class="dropdownmenu text-left"><a href="javascript:void(0)">Funds <i class="fa fa-angle-down ml-1"></i></a>
 									<ul>
 										<div class="row justify-content-between">
@@ -48,7 +48,7 @@
 												<li><a href="javascript:void(0)">Evolution Plus Fund</a></li>
 												<li><a href="https://goldbullionstrategyfund.com/" target="_blank">Gold Bullion Strategy Fund</a></li>
 												<li><a href="javascript:void(0)">Government Tactical Income Fund</a></li>
-												<li><a href="managed-income-fund.html">Managed Income Fund</a></li>
+												<li><a href="{{route('managed-income-fund')}}">Managed Income Fund</a></li>
 											</div>
 											<div class="col-md-4">
 												<li><a href="javascript:void(0)">Market Leaders Fund</a></li>
@@ -71,27 +71,27 @@
 										</div>
 									</ul>
 								</li>
-								<li><a href="performance.html">Performance</a></li>
+								<li><a href="{{route('performance')}}">Performance</a></li>
 								<li class="dropdownmenu text-left"><a href="javascript:void(0)">Resources <i class="fa fa-angle-down ml-1"></i></a>
 								<ul>
 										<div class="row justify-content-between">
 											<div class="col-md-4">
 												<div class="resrceblck">
-													<a href="fund-document.html" class="text-theme-dark"><h4>Fund Documents</h4></a>
+													<a href="{{route('fund-document')}}" class="text-theme-dark"><h4>Fund Documents</h4></a>
 												    <p>Finance documents containing information about the funds and risks.</p>
-												    <a href="fund-document.html" class="text-theme"><h6>View Fund Documents <img src="images/up-arrow-tilted.png" alt="" srcset="images/up-arrow-tilted@2x.png 2x, images/up-arrow-tilted@3x.png 3x" class="ml-1"></h6></a>
+												    <a href="{{route('fund-document')}}" class="text-theme"><h6>View Fund Documents <img src="images/up-arrow-tilted.png" alt="" srcset="images/up-arrow-tilted@2x.png 2x, images/up-arrow-tilted@3x.png 3x" class="ml-1"></h6></a>
 												</div>
 												<div class="resrceblck">
-													<a href="market-updates.html" class="text-theme-dark"><h4>Market Updates</h4></a>
+													<a href="route('market-updates')" class="text-theme-dark"><h4>Market Updates</h4></a>
 												    <p>How dynamic, risk-managed investment solutions are performing in the current market environment</p>
-												     <a href="market-updates.html" class="text-theme"><h6>View Market Updates <img src="images/up-arrow-tilted.png" alt="" srcset="images/up-arrow-tilted@2x.png 2x, images/up-arrow-tilted@3x.png 3x" class="ml-1"></h6></a>
+												     <a href="{{route('market-updates')}}" class="text-theme"><h6>View Market Updates <img src="images/up-arrow-tilted.png" alt="" srcset="images/up-arrow-tilted@2x.png 2x, images/up-arrow-tilted@3x.png 3x" class="ml-1"></h6></a>
 												</div>
 											</div>
 											<div class="col-md-4">
 												<div class="resrceblck">
-													<a href="risk-definition.html" class="text-theme-dark"><h4>Risk Definitions</h4></a>
+													<a href="{{route('risk-definition')}}" class="text-theme-dark"><h4>Risk Definitions</h4></a>
 												    <p>Definitions of potential financial risks inherent in an investment decision.</p>
-												     <a href="risk-definition.html" class="text-theme"><h6>View Risk Definitions <img src="images/up-arrow-tilted.png" alt="" srcset="images/up-arrow-tilted@2x.png 2x, images/up-arrow-tilted@3x.png 3x" class="ml-1"></h6></a>
+												     <a href="{{route('risk-definition')}}" class="text-theme"><h6>View Risk Definitions <img src="images/up-arrow-tilted.png" alt="" srcset="images/up-arrow-tilted@2x.png 2x, images/up-arrow-tilted@3x.png 3x" class="ml-1"></h6></a>
 												</div>
 												<div class="resrceblck">
 													<a href="javascript:void(0)" class="text-theme-dark"><h4>Fund Holdings</h4></a>
@@ -112,9 +112,9 @@
 										</div>
 									</ul>
 							</li>
-							<li><a href="news.html">Insights</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="{{route('news')}}">Insights</a></li>
+							<li><a href="{{route('about')}}">About</a></li>
+							<li><a href="{{route('contact')}}">Contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -132,13 +132,13 @@
 		<div class="row justify-content-between">
 			<div class="col-md-5">
 				<div class="logo">
-					<a href="index.html"><img src="images/logo.png" alt="" srcset="images/logo@2x.png 2x, images/logo@3x.png 3x"></a>
+					<a href="{{route('home')}}"><img src="images/logo.png" alt="" srcset="images/logo@2x.png 2x, images/logo@3x.png 3x"></a>
 				</div>
 				<div class="ftlfttxt">
 					<h2>Quantified Funds</h2>
 					<p>Flexible Plan Investments, Ltd. serves as subadvisor to the Quantified Funds, distributed by Ceros Financial Services, Inc. (Member FINRA/SIPC). Flexible Plan Investments, Ltd. and Ceros are not affiliated.</p>
 					<p>Advisors Preferred, LLC serves as investment advisor to the Quantified Funds. Advisors Preferred is a commonly held affiliate of Ceros.</p>
-					<a href="contact.html" class="animatedbtn">Contact</a>
+					<a href="{{route('contact')}}" class="animatedbtn">Contact</a>
 				</div>
 			</div>
 			<div class="col-md-7 col-lg-6">
@@ -175,19 +175,19 @@
 						<div class="col-md-6 footer_right_block">
 							<h4><a href="avascript:void(0)" class="text-white">About</a></h4>
 							<ul>
-								<li><a href="fund-family.html">Fund Family</a></li>
-								<li><a href="performance.html">Performance</a></li>
-								<li><a href="news.html">Insights</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="{{route('fund-family')}}">Fund Family</a></li>
+								<li><a href="{{route('performance')}}">Performance</a></li>
+								<li><a href="{{route('news')}}">Insights</a></li>
+								<li><a href="{{route('about')}}">About</a></li>
+								<li><a href="{{route('contact')}}">Contact</a></li>
 							</ul>
 							
 						</div>
 						<div class="col-md-6 footer_right_block">
 							<h4><a href="javascript:void(0)" class="text-white">Resources</a></h4>
 							<ul>
-								<li><a href="fund-document.html">View Fund Documents</a></li>
-								<li><a href="risk-definition.html">View Risk Definitions</a></li>
+								<li><a href="{{route('fund-document')}}">View Fund Documents</a></li>
+								<li><a href="{{route('risk-definition')}}">View Risk Definitions</a></li>
 							</ul>
 						</div>
 						<div class="col-md-12">
@@ -205,10 +205,10 @@
 			<div class="row">
 				<div class="col-md-6">
 					<ul>
-						<li><a href="terms-condition.html">Terms and Conditions</a></li>
-						<li><a href="privacy.html">Privacy Policy</a></li>
-						<li><a href="fund-document.html">Fund Documents</a></li>
-						<li><a href="risk-definition.html">Risk Definitions</a></li>
+						<li><a href="{{route('terms-condition')}}">Terms and Conditions</a></li>
+						<li><a href="{{route('privacy')}}">Privacy Policy</a></li>
+						<li><a href="{{route('fund-document')}}">Fund Documents</a></li>
+						<li><a href="{{route('risk-definition')}}">Risk Definitions</a></li>
 					</ul>
 				</div>
 				<div class="col-md-6 text-left text-md-right">

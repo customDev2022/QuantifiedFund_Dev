@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Http\Controllers;
+
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
@@ -43,9 +45,9 @@ class FrontController extends Controller
     }
 
     // first_document service
-    public function managed_income()
+    public function managed_income_fund()
     {
-        return view('frontend.managed-income');
+        return view('frontend.managed-income-fund');
     }
 
     // first_document service
@@ -73,14 +75,14 @@ class FrontController extends Controller
     }
 
     // first_document service
-    public function risk_defination()
+    public function risk_definition()
     {
-        return view('frontend.risk_defination');
+        return view('frontend.risk-definition');
     }
 
     // first_document service
-    public function terms_conditon()
+    public function terms_condition()
     {
-        return view('frontend.terms_conditon');
+        return view('frontend.terms-condition');
     }
 }
